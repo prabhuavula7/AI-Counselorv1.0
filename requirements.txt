@@ -1,6 +1,8 @@
 transformers
 torch
+langdetect
 gradio
-numpy
-sentencepiece       #if using multilingual tokenizers
-accelerate          #for optimized inference
+requests
+sentence-transformers
+qdrant-client
+tiktoken

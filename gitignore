@@ -1,0 +1,37 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.so
+*.log
+*.sqlite3
+*.db
+*.tmp
+*.swp
+
+# Virtual environments
+venv/
+.env/
+.envrc
+
+# VS Code settings
+.vscode/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Gradio cache
+gradio_cached_examples/
+gradio/launch.py
+
+# Qdrant data volume
+qdrant_data/
+
+# Chat logs (optional)
+chatlog.jsonl
+
+# Ollama model cache
+~/.ollama/
